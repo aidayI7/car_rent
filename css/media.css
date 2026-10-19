@@ -1,0 +1,193 @@
+/* ========== Большие экраны (до 1200px) ========== */
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .hero__title {
+        font-size: 48px;
+    }
+
+    .hero__right img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer__top {
+        gap: 30px;
+    }
+}
+
+/* ========== Ноутбуки / планшеты горизонтально (до 992px) ========== */
+@media (max-width: 992px) {
+    .header__menu {
+        gap: 20px;
+    }
+
+    .header__menu a {
+        font-size: 14px;
+    }
+
+    .hero__wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .hero__left,
+    .hero__right {
+        width: 100%;
+    }
+
+    .hero__title {
+        font-size: 42px;
+    }
+
+    .hero__bottom {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero__list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .work__list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .work__item {
+        width: calc(50% - 15px);
+    }
+
+    .footer__top {
+        flex-wrap: wrap;
+        gap: 40px 30px;
+    }
+
+    .footer__brand {
+        width: 100%;
+    }
+}
+
+/* ========== Планшеты вертикально (до 768px) ========== */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .header__box {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .header__menu {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .hero__title {
+        font-size: 36px;
+    }
+
+    .hero__text br {
+        display: none;
+    }
+
+    .hero__list {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .hero__btn {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 14px;
+    }
+
+    .main-title {
+        font-size: 28px;
+    }
+
+    .work__box img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer__line {
+        margin: 30px 0;
+    }
+}
+
+/* ========== Большие телефоны (до 576px) ========== */
+@media (max-width: 576px) {
+    .header__menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .header__buttons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .hero__title {
+        font-size: 30px;
+    }
+
+    .hero__text {
+        font-size: 14px;
+    }
+
+    .work__item {
+        width: 100%;
+    }
+
+    .main-title {
+        font-size: 24px;
+    }
+
+    .footer__top {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer__bottom {
+        text-align: center;
+        font-size: 13px;
+    }
+}
+
+/* ========== Маленькие телефоны (до 400px) ========== */
+@media (max-width: 400px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .hero__title {
+        font-size: 26px;
+    }
+
+    .main-title {
+        font-size: 20px;
+    }
+
+    .header__buttons button {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+}
